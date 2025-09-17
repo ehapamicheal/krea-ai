@@ -30,9 +30,11 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
   return (
     <html lang="en" suppressHydrationWarning>
-       <body suppressHydrationWarning
-        className={`${suisseIntl.variable} antialiased`}>
-        <ThemeProvider attribute="class" enableSystem defaultTheme="light">
+      <body
+        suppressHydrationWarning
+        className={`${suisseIntl.variable} antialiased`}
+      >
+        <ThemeProvider>
           <Navbar />
           <main>{children}</main>
           <Footer />

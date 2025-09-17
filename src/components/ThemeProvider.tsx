@@ -1,11 +1,13 @@
 "use client";
 
-import { ThemeProvider as NextThemes } from "next-themes";
+import { ThemeProvider as NextThemes, ThemeProviderProps } from "next-themes";
 
-const ThemeProvider = ({ children, ...props }: any) => {
+const ThemeProvider = ({ children, ...props }: ThemeProviderProps) => {
   return (
-     <NextThemes {...props}>{children}</NextThemes>
-  )
-}
+    <NextThemes defaultTheme="light" enableSystem={false} attribute="class" {...props}>
+      {children}
+    </NextThemes>
+  );
+};
 
 export default ThemeProvider;
