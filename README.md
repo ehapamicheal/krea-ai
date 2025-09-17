@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🤖 Krea AI
 
-## Getting Started
+A modern **AI-powered creative platform**, inspired by Krea AI.  
+This project allows users to generate images, videos, edit content, and apply advanced AI transformations with an intuitive UI.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Image Generation** – Create AI-generated images with styles and custom prompts.  
+- **Video Generation** – Generate AI-powered videos with models like Runway, Luma, and more.  
+- **Realtime Canvas** – Render AI outputs live on a canvas with instant feedback.  
+- **Video Lip Sync** – Sync video clips with any audio.  
+- **Motion Transfer** – Transfer movements to images or animate characters.  
+- **Edit Tools** – Add, remove, or change objects in photos using AI.  
+- **Enhancer** – Upscale and enhance images/videos up to 2K+.  
+- **Train Models** – Teach Krea AI to replicate custom styles, products, or characters.  
+- **Gallery** – Explore generated works in a clean, modern interface.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- Next.js – React framework  
+- Tailwind CSS – Utility-first CSS framework  
+- TypeScript – Type safety  
+- Framer Motion – Smooth animations  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 To Run Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+npm run
