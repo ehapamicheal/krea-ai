@@ -1,8 +1,9 @@
 # 🤖 Krea AI
 
 A modern **AI-powered creative platform**, inspired by Krea AI.  
-This project allows users to generate images, videos, edit content, and apply advanced AI transformations with an intuitive UI.  
-
+This project allows users to generate images, videos, edit content, and apply advanced AI transformations with an intuitive UI. 
+ 
+![Krea AI Image](https://github.com/ehapamicheal/krea-ai/blob/b5cf70018fe09c83a35c18434d3d0766fe6ef3f2/public/images/krea-ai-img.png)
 ---
 
 ## ✨ Features
